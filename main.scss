@@ -34,6 +34,17 @@ $version: '6.9.0';
 @import 'src/channels/panels';
 @import 'src/channels/privateChannels';
 
+// CHAT
+@import 'src/chat/chat';
+@import 'src/chat/bars';
+@import 'src/chat/call';
+@import 'src/chat/divider';
+@import 'src/chat/stageCall';
+@import 'src/chat/textArea';
+@import 'src/chat/textAreaAutoComplete';
+@import 'src/chat/treads';
+@import 'src/chat/modView';
+
 // GENERAL ELEMENTS
 @import 'src/general/badge';
 @import 'src/general/button';
@@ -65,6 +76,20 @@ $version: '6.9.0';
 // MEMBERS
 @import 'src/members/members';
 @import 'src/members/tags';
+
+// MESSAGES
+@import 'src/messages/message';
+@import 'src/messages/activityInvite';
+@import 'src/messages/attachment';
+@import 'src/messages/blocked';
+@import 'src/messages/codeblock';
+@import 'src/messages/codeLanguages';
+@import 'src/messages/embed';
+@import 'src/messages/inviteLink';
+@import 'src/messages/mediaPlayer';
+@import 'src/messages/mention';
+@import 'src/messages/reaction';
+@import 'src/messages/textContainer';
 
 // MODALS
 @import 'src/modals/modal';
